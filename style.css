@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#head-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 75vw;
+    margin-left: 11.5vw;
+}
+.logo img{
+    width: 130px;
+    height: auto;
+    border: 1px solid red;
+}
+.navbar{
+    justify-content: flex-end;
+    display: flex;
+    justify-content: space-between;
+}
+.navlist li{
+    text-decoration: none;
+    display: inline-block;
+    padding: ;
+}
